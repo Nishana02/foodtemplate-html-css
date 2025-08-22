@@ -1,0 +1,54 @@
+*{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#head{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    font-size: 25px;
+}
+.main-food{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 200px;
+    height:600px;
+    display:flex;
+    justify-content: space-between;
+
+}
+.food-images img{
+    width:300px;
+    margin-right: 5px;
+    padding: 5px;
+}
+.main-about img{
+    margin-top: 40px;
+    width:600px;
+    margin-left: 450px;
+}
+.main-about h3{
+    margin-top: 30px;
+    text-align: center;
+}
+.main-about #para1{
+    text-align: center;
+    font-style: italic;
+    margin-top: 15px;
+}
+.main-about #para2{
+    text-align:center;
+    margin-top: 40px;
+}
+footer{
+    display:flex;  
+    margin-left: 20px;
+}
+.main-foot{
+    margin-top: 50px;
+    width:350px;
+}
+.main-foot p{
+    margin-top: 20px;
+}
