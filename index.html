@@ -5,21 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>W3.CSS Template</title>
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <div id="head">
-        <h4>=</h4>
-        <h4>My Food</h4>
-        <h4>Mail</h4>
+        <nav>
+          <i class="fa-solid fa-bars"></i>
+          <h2>My Food</h2>
+          <h2>Mail</h2>
+        </nav>
       </div>
     </header>
 
     <section id="foods">
-      <div class="main-food">
+      <div class="main-foods">
         <div class="food-images">
           <img src="https://www.w3schools.com/w3images/sandwich.jpg" alt="" />
-          <h3>The Perfect Sandwich.A Real NYC Classic</h3>
+          <h3>The Perfect Sandwich, A Real NYC Classic</h3>
           <p>
             Just some random text, lorem ipsum text praesent tincidunt ipsum
             lipsum.
@@ -30,14 +45,14 @@
           <h3>Let Me Tell You About This Steak</h3>
           <p>
             Once again, some random text to lorem lorem lorem lorem ipsum text
-            praesent tincid
+            praesent tincidunt ipsum lipsum.
           </p>
         </div>
-
         <div class="food-images">
           <img src="https://www.w3schools.com/w3images/cherries.jpg" alt="" />
           <h3>Cherries, interrupted</h3>
-          <p>Lorem ipsum text praesent tincidunt ipsum lipsum. What else?</p>
+          <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+          <p>What else?</p>
         </div>
         <div class="food-images">
           <img src="https://www.w3schools.com/w3images/wine.jpg" alt="" />
@@ -45,7 +60,7 @@
           <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
         </div>
       </div>
-      <div class="main-food">
+      <div class="main-foods">
         <div class="food-images">
           <img src="https://www.w3schools.com/w3images/popsicle.jpg" alt="" />
           <h3>All I Need Is a Popsicle</h3>
@@ -75,13 +90,34 @@
           </p>
         </div>
       </div>
+      <div class="arrows">
+        <div class="swipe">
+          <i class="fa-solid fa-angles-left"></i>
+        </div>
+        <div class="swipe" id="id1">
+          <p style="color: white">1</p>
+        </div>
+        <div class="swipe">
+          <p>2</p>
+        </div>
+        <div class="swipe">
+          <p>3</p>
+        </div>
+        <div class="swipe">
+          <p>4</p>
+        </div>
+        <div class="swipe">
+          <i class="fa-solid fa-angles-right"></i>
+        </div>
+      </div>
+      <hr />
     </section>
 
     <section id="about">
-      <h2 style="text-align: center">About Me, The Food Man</h2>
       <div class="main-about">
+        <h2>About Me, The Food Man</h2>
         <img src="https://www.w3schools.com/w3images/chef.jpg" alt="" />
-        <h3>I am Who I Am!</h3>
+        <h2>I am Who I Am!</h2>
         <p id="para1">With Passion For Real, Good Food</p>
         <p id="para2">
           Just me, myself and I, exploring the universe of unknownment. I have a
@@ -92,44 +128,56 @@
           rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
           congue gravida diam non fringilla.
         </p>
+        <hr />
       </div>
     </section>
 
     <footer>
-      <div class="main-foot">
+      <div class="sub-footer">
         <h2>FOOTER</h2>
         <p>
           Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum,
           porta lectus vitae, ultricies congue gravida diam non fringilla.
         </p>
-        <p>Powdered by <a href="">w3.css</a></p>
+        <p>Powered by<span style="text-decoration: underline"> w3.css</span></p>
       </div>
-
-      <div class="main-foot">
+      <div class="sub-footer">
         <h2>BLOG POSTS</h2>
-        <img
-          width="80px"
-          src="https://www.w3schools.com/w3images/workshop.jpg"
-          alt=""
-        />
-        <p>
-          Lorem <br />
-          Sed mattis nunc
-        </p>
-        <img
-          width="80px"
-          src="https://www.w3schools.com/w3images/gondol.jpg"
-          alt=""
-        />
-        <p>
-          Ipsum <br />
-          Praes tinci sed
-        </p>
-      </div>
-      <div class="main-foot">
-        <h2>POPULAR TAGS</h2>
-        <button>*</button>
+        <div class="grid">
+          <img
+            width="50px"
+            src="https://www.w3schools.com/w3images/workshop.jpg"
+            alt=""
+          />
+          <p><span style="font-size: 20px">Lorem</span><br />Sed mattis nunc</p>
         </div>
+        <hr />
+        <div class="grid">
+          <img
+            width="50px"
+            src="https://www.w3schools.com/w3images/gondol.jpg"
+            alt=""
+          />
+          <p><span style="font-size: 20px">Ipsum</span><br />Praes tinci sed</p>
+        </div>
+      </div>
+      <div class="sub-footer">
+        <h2>POPULAR TAGS</h2>
+        <button style="background-color: black; font-size: 15px">Travel</button>
+        <button>New York</button>
+        <button>Dinner</button>
+        <button>Salmon</button>
+        <button>France</button>
+        <button>Drinks</button>
+        <button>Ideas</button>
+        <button>Flavours</button>
+        <button>Cuisine</button>
+        <button>Chicken</button>
+        <button>Dressing</button>
+        <button>Fried</button>
+        <button>Fish</button>
+        <button>Duck</button>
+      </div>
     </footer>
   </body>
 </html>

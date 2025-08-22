@@ -2,53 +2,134 @@
     margin-left: 20px;
     margin-right: 20px;
 }
-#head{
+header{
+    width: 1400px;
+    background-color: white;
+    position: fixed;
+    top: 0%;
+}
+#head nav{
     display:flex;
     justify-content: space-between;
-    margin-top: 5px;
+}
+nav i{
+    margin-top: 25px;
     font-size: 25px;
 }
-.main-food{
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 20px;
-    width: 200px;
-    height:600px;
-    display:flex;
-    justify-content: space-between;
-
+nav h2{
+    font-family: "Karma", serif;
 }
-.food-images img{
-    width:300px;
-    margin-right: 5px;
-    padding: 5px;
+.main-foods{
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 10px;
+    width:1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.food-images{
+    width: 400px;
+}
+.main-foods img{
+    width: 100%;
+}
+.food-images h3{
+    text-align: center;
+    font-family: "Karma", serif;
+    font-weight: normal;
+}
+.food-images p{
+    text-align: center;
+    font-family: "Karma", serif;
+}
+.arrows{
+    margin-top: 30px;
+    width:400px;
+    display: flex;
+    align-items: center;
+    margin-left: 550px;
+    margin-bottom: 60px;
+}
+.swipe{
+    width:45px;
+    height: 45px;
+    margin: 0%;
+   
+}
+.swipe i {
+    margin-top: 15px;
+    text-align: center;
+}
+.swipe p{
+    font-family: "Karma", serif;
+}
+.swipe:hover{
+    background-color: black;
+    color: white;
+}
+#id1{
+    background-color: black;
+}
+#id1:hover{
+    background-color: rgb(84, 84, 103);
+}
+.main-about{
+    margin-top: 50px;
+    width: 1350px;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+.main-about h2{
+    text-align: center;
+    font-family: "Karma", serif;
 }
 .main-about img{
-    margin-top: 40px;
-    width:600px;
-    margin-left: 450px;
+    width:800px;
+    text-align: center;
+    margin-left: 250px;
 }
-.main-about h3{
-    margin-top: 30px;
+.main-about h2{
+    margin-top: 40px;
     text-align: center;
 }
 .main-about #para1{
-    text-align: center;
     font-style: italic;
-    margin-top: 15px;
+    text-align: center;
 }
 .main-about #para2{
-    text-align:center;
-    margin-top: 40px;
+    text-align: center;
+    margin-right: 50px;
+    margin-bottom: 60px;
+    font-size: 15px;
+    font-family: "Karma", serif;
 }
 footer{
-    display:flex;  
-    margin-left: 20px;
+    display: flex;
 }
-.main-foot{
-    margin-top: 50px;
+.sub-footer{
     width:350px;
+    margin-top: 40px;
+    margin-left: 60px;
 }
-.main-foot p{
-    margin-top: 20px;
+.grid{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;             
+    column-gap: 3px; 
+}
+.grid p{
+    margin: 0;
+    padding-left: 10px;
+}
+.sub-footer button{
+    width: 60px;
+   background-color: rgb(152, 143, 143);
+    color: white;
+    font-size: 10px;
+    border: none;
+    font-family: "Karma", serif;
+}
+.grid span{
+    font-family: "Karma", serif;
+    font-size: 20px;
 }
