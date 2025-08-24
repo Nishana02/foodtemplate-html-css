@@ -76,7 +76,7 @@ nav h2{
 }
 .main-about{
     margin-top: 50px;
-    width: 1350px;
+    width: 1250px;
     margin-left: 60px;
     margin-right: 40px;
 }
@@ -100,7 +100,7 @@ nav h2{
 }
 .main-about #para2{
     text-align: center;
-    margin-right: 50px;
+    margin-left: 60px;
     margin-bottom: 60px;
     font-size: 15px;
     font-family: "Karma", serif;
@@ -114,6 +114,14 @@ footer{
     margin-top: 40px;
     margin-left: 60px;
 }
+.sub-footer a{
+    color: black;
+    margin-left: 5px;
+}
+.sub-footer p{
+    font-family: "Karma", serif;
+    
+}
 .grid{
     display: grid;
     grid-template-columns: auto 1fr;
@@ -122,7 +130,7 @@ footer{
 }
 .grid p{
     margin: 0;
-    padding-left: 10px;
+    margin-left: 10px;
 }
 .sub-footer button{
     width: 60px;
@@ -131,6 +139,7 @@ footer{
     font-size: 10px;
     border: none;
     font-family: "Karma", serif;
+    gap: 1px;
 }
 .grid span{
     font-family: "Karma", serif;
